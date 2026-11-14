@@ -1,0 +1,28 @@
+
+{
+  "name": "tooltown-makerspace",
+  "version": "1.0.0",
+  "description": "ToolTown Makerspace - Tool Library Management System",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "setup": "node setup.js",
+    "check": "node check.js"
+  },
+  "keywords": [
+    "backend",
+    "express",
+    "sqlite",
+    "tool-library"
+  ],
+  "author": "BDF Group Assignment",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
