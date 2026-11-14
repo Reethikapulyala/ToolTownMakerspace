@@ -1,4 +1,3 @@
-
 const db = require("../db");
 
 // GET all loans with maker and tool names
